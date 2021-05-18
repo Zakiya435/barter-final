@@ -4,6 +4,7 @@ import { DrawerItems} from 'react-navigation-drawer'
 import { Avatar } from 'react-native-elements';
 import * as ImagePicker from 'expo-image-picker';
 import db from '../config';
+import {RFValue} from 'react-native-responsive-fontsize'
 import firebase from 'firebase';
 
 export default class CustomSideBarMenu extends Component{
